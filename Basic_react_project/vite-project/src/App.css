@@ -30,6 +30,11 @@ img {
 .div1 {
   display: flex;
 }
+#sign_up {
+  padding: 0.3em 0.5em;
+  margin-left: 15px;
+  font-size: 13px;
+}
 @media screen and (max-width: 1000px) {
   .form {
     width: 40vw;

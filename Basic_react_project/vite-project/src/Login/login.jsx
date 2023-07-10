@@ -31,6 +31,8 @@ const Login = () => {
             Name
           </label>
           <input
+            aria-label="Enter your Name"
+            placeholder="Name"
             type="text"
             value={name}
             className="input"
@@ -40,12 +42,17 @@ const Login = () => {
             ID
           </label>
           <input
+            aria-label="Enter your Id"
             type="number"
+            placeholder="Id"
             value={id}
             className="input"
             onChange={(e) => setId(e.target.value)}
           />
-          <button type="submit">Submit</button>
+          <button type="submit">Sign In</button>
+          <p>
+            Are you not signed in ?<button id="sign_up">Sign Up</button>
+          </p>
         </form>
       ) : (
         <p>Logged In</p>
