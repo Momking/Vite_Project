@@ -51,10 +51,8 @@ const SignIn = () => {
           />
           <button type="submit">Sign In</button>
           <p>
-            Are you not LoggedIn ?
-            <link to="./SignUp" id="sign_up">
-              Sign Up
-            </link>
+            Are you not LoggedIn ?{" "}
+            <h5 style={{ color: "red", margin: "10px" }}>Sign up</h5>
           </p>
         </form>
       ) : (
