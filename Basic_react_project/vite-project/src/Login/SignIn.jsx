@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { people } from "../data";
 
-const Login = () => {
+const SignIn = () => {
   const [name, setName] = useState("");
   const [id, setId] = useState("");
   const [error, setError] = useState(true);
@@ -51,7 +51,10 @@ const Login = () => {
           />
           <button type="submit">Sign In</button>
           <p>
-            Are you not signed in ?<button id="sign_up">Sign Up</button>
+            Are you not LoggedIn ?
+            <link to="./signup" id="sign_up">
+              Sign Up
+            </link>
           </p>
         </form>
       ) : (
@@ -61,4 +64,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignIn;
