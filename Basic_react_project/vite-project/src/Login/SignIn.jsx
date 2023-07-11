@@ -52,7 +52,7 @@ const SignIn = () => {
           <button type="submit">Sign In</button>
           <p>
             Are you not LoggedIn ?
-            <link to="./signup" id="sign_up">
+            <link to="./SignUp" id="sign_up">
               Sign Up
             </link>
           </p>
